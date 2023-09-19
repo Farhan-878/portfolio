@@ -10,7 +10,6 @@ import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
 
-
 const Hero = () => {
   return (
     <div id="home" className={` bg-gradient-to-r from-green-200 to-blue-200 `}>
@@ -21,17 +20,11 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm John Doe
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={[
-                "Web Developer",
-                2000,
-                "Freelancer",
-                2000,
-                "",
-              ]}
+              sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -103,22 +96,24 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
-            data-aos="fade-up"
+              data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src="https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png"
               // src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                className=" relative cursor-pointer"
+              >
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
                   src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
-                <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                />
+                <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
               </div>
             </div>
           </div>
