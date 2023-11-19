@@ -1,10 +1,7 @@
 import React from "react";
 import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
-
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
-
-
 import {
   SiJavascript,
   SiTailwindcss,
@@ -83,9 +80,7 @@ const Skills = ({ darkMode }) => {
               />
               <SkillBox
                 className=""
-                logo={
-                  <GrCode/>
-                }
+                logo={<GrCode />}
                 black={"black"}
                 white={"white"}
                 skill={"C++"}

@@ -20,11 +20,11 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John Doe
+              Hello, I'm Farhan Manzer
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
+              sequence={["Web Designer", 2000, "Frontend Developer", 2000, ""]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -34,7 +34,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              {/* Lorem ipsum dolor sit amet consectetur */}
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -61,13 +61,16 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/Farhan-878" target="_blank">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/farhan-manzer-33b01b208/"
+                  target="_blank"
+                >
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
@@ -98,7 +101,7 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png"
+              src="https://i.postimg.cc/fLYx8RBQ/Group-3.png"
               // src={mine}
               alt="mine"
             />
@@ -110,7 +113,7 @@ const Hero = () => {
               >
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
+                  src="https://i.postimg.cc/rpjdsRnm/Group-4.png"
                   alt=""
                 />
                 <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
