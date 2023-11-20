@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+// import resumePDF from "../../assets/Resume.pdf";
 
 const Hero = () => {
   return (
@@ -45,7 +45,7 @@ const Hero = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href={resumePDF}
+              href=""
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
