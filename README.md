@@ -1,3 +1,3 @@
 # Portfolio
 
-LINK: https://farhanmanzer.netlify.app/
+LINK: https://farhan-manzer.netlify.app/
