@@ -9,6 +9,8 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 // import resumePDF from "../../assets/Resume.pdf";
+import skill from "../../assets/Full Stack Developer2.png";
+import mine from "../../assets/banner.png";
 
 const Hero = () => {
   return (
@@ -101,8 +103,8 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src="https://i.postimg.cc/fLYx8RBQ/Group-3.png"
-              // src={mine}
+              // src="https://i.postimg.cc/fLYx8RBQ/Group-3.png"
+              src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
@@ -113,7 +115,7 @@ const Hero = () => {
               >
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://i.postimg.cc/rpjdsRnm/Group-4.png"
+                  src={skill}
                   alt=""
                 />
                 <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
