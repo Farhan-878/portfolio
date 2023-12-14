@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
+import logo from "../../assets/favicon.png";
 
 const navItems = [
   {
@@ -49,6 +50,24 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
     };
   }, []);
 
+  const [rotation, setRotation] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // You can adjust the rotation speed and direction as needed
+      const newRotation = window.scrollY * 0.1; // Adjust multiplier for speed
+      setRotation(newRotation);
+    };
+
+    // Attach the event listener when the component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
@@ -62,7 +81,11 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Portfolio
+            <img
+              style={{ transform: `rotate(${rotation}deg)`, height: "45px" }}
+              src={logo}
+              alt="logo"
+            />
           </Link>
         </div>
         <div
