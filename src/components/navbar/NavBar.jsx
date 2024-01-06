@@ -120,9 +120,9 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
-                    item.name === activeIndex ? "text-yellow-600" : ""
-                  }`}
+                  className={`uppercase cursor-pointer hover:text-blue-500 font-bold ${
+                    scrollPosition > 0 ? "text-black" : "text-white"
+                  } ${item.name === activeIndex ? "text-blue-500" : ""}`}
                 >
                   {item.name}
                 </a>
@@ -130,7 +130,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href=""
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className="bg-blue-500 text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>

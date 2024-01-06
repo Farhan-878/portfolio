@@ -22,34 +22,36 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-600">
               Experience
             </legend>
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-blue-500 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Frontend Developer
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   Websultanate Software Technologies Pvt. Ltd.
                 </span>
-                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                <span className=" text-[.9rem] font-semibold text-blue-600 sm:text-base">
                   Feb 2022 - Present
                 </span>
                 <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  Enthusiastic and results-driven Frontend Developer with a
+                  demonstrated track record of transforming design concepts into
+                  engaging web experiences. With a passion for clean and
+                  efficient code, I bring 2 years of hands-on experience.
+                  Committed to optimizing user interfaces for responsiveness and
+                  performance, Eager to contribute my skills in crafting
+                  exceptional user interfaces while staying abreast of emerging
+                  technologies in the dynamic world of frontend development.
                 </p>
               </div>
             </div>
@@ -60,25 +62,25 @@ const Resume = () => {
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
           >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-blue-600">
               Education
             </legend>
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-blue-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex flex-col gap-1 border-2 border-blue-600 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Bachelor of Computer Applications
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
                   Khawaja Moinuddin Chishti Language University, Lucknow
                 </span>
-                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                <span className=" text-[.9rem] font-semibold text-blue-600 sm:text-base">
                   Year 2018 - Year 2021
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">

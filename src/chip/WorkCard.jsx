@@ -6,7 +6,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const WorkCard = () => {
-  const reversedData = [...data].reverse();
+  const reversedData = [...data];
 
   return (
     <>

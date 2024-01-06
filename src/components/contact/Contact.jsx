@@ -30,7 +30,7 @@ const Contact = () => {
           <div className=" flex p-5 items-center justify-center ">
             <button
               data-aos="zoom-in"
-              className=" text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
+              className=" text-blue-600 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
             >
               <BsArrowRight className=" md:rotate-90" />
             </button>
@@ -43,7 +43,7 @@ const Contact = () => {
             action="mailto:xyz@gmail.com"
           >
             <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+              className="px-3 hover:border-blue-600 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
               placeholder="e.g. example@email.com"
               name=""
@@ -63,7 +63,7 @@ const Contact = () => {
               id=""
             />
             <button
-              className="bg-yellow-500 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
+              className="bg-blue-600 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
               type="submit"
             >
               <span>Send</span>
