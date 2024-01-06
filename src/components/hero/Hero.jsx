@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className={` bg-gradient-to-r from-blue-800 to-gray-800 h-[100vh md:h-[100%]]`}
+      className={` bg-gradient-to-r from-blue-800 to-gray-800 h-[100vh] md:h-[100%] sm:h-[100%]`}
     >
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
