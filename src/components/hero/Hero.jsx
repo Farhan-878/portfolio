@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-// import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/FarhanResume.pdf";
 import skill from "../../assets/Full Stack Developer2.png";
 import mine from "../../assets/banner.png";
 
