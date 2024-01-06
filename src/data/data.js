@@ -9,9 +9,9 @@ export const data = [
   },
   {
     id: 2,
-    img: "https://i.postimg.cc/Bv75CLyN/4167022.jpg",
-    title: "Tarvel Agency",
-    link: "",
+    img: "https://i.postimg.cc/RVTC1RwZ/Group-1597882518.png",
+    title: "Casino Solano",
+    link: "https://casinosolano.com/",
     git: "",
   },
   {

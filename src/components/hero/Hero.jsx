@@ -14,7 +14,10 @@ import mine from "../../assets/banner.png";
 
 const Hero = () => {
   return (
-    <div id="home" className={` bg-gradient-to-r from-blue-800 to-gray-800  `}>
+    <div
+      id="home"
+      className={` bg-gradient-to-r from-blue-800 to-gray-800 h-[100vh]`}
+    >
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -47,12 +50,16 @@ const Hero = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href=""
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-600"
+              href={resumePDF}
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-1 relative">
                 Resume <FiDownload />
+                <span class="absolute top-[-11px] right-[-31px] flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+                </span>
               </div>
             </a>
           </div>
