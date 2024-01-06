@@ -71,7 +71,9 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0 ? `bg-white shadow-md` : "bg-transparent"
+        scrollPosition > 0
+          ? `bg-transparent backdrop-blur-lg shadow-md`
+          : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
@@ -110,7 +112,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               onClick={toggleNav}
               className={`text-3xl hidden md:block relative right-0 top-4 container mx-auto`}
             >
-              <RxCross2 size={25} />
+              <RxCross2 className="text-black" size={25} />
             </button>
             {navItems.map((item) => (
               <li
@@ -120,8 +122,8 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer hover:text-blue-500 font-bold ${
-                    scrollPosition > 0 ? "text-black" : "text-white"
+                  className={`uppercase cursor-pointer hover:text-blue-500 font-bold md:text-black ${
+                    scrollPosition > 0 ? "text-white" : "text-white"
                   } ${item.name === activeIndex ? "text-blue-500" : ""}`}
                 >
                   {item.name}
@@ -130,7 +132,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href=""
-              className="bg-blue-500 text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className="bg-blue-600 text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>

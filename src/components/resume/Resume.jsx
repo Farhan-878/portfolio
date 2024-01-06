@@ -11,7 +11,7 @@ const Resume = () => {
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
       <div data-aos="fade-up" className="left flex-1 w-full">
-        <p className=" text-gray-700 font-medium w-[100%]">
+        <p className=" text-gray-500 font-medium w-[100%]">
           Here are my experiences and qualifications.
         </p>
       </div>

@@ -29,7 +29,7 @@ const Skills = ({ darkMode }) => {
           <div className="left flex-1 w-full">
             <p
               data-aos="fade-up"
-              className=" text-gray-700 font-medium w-[100%]"
+              className=" text-gray-500 font-medium w-[100%]"
             >
               Here are my skills.
             </p>
