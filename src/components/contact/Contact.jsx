@@ -30,7 +30,7 @@ const Contact = () => {
           <div className=" flex p-5 items-center justify-center ">
             <button
               data-aos="zoom-in"
-              className=" text-blue-600 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
+              className=" text-blue-600 font-extrabold text-3xl border-2 border-blue-600 p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
             >
               <BsArrowRight className=" md:rotate-90" />
             </button>
