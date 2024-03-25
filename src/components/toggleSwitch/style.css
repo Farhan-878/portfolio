@@ -45,3 +45,10 @@
 .w-8 {
   width: 2rem /* 32px */;
 }
+
+@media screen and (max-width: 767px) {
+  .toggle-switch {
+    right: 20px;
+    bottom: 20px;
+  }
+}
