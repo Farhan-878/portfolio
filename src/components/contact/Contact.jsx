@@ -63,10 +63,10 @@ const Contact = () => {
               id=""
             />
             <button
-              className="bg-blue-600 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
+              className="btn-blue w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
               type="submit"
             >
-              <span>Send</span>
+              <span className="text-lg display-block">Send</span>
               <RiSendPlaneFill />
             </button>
           </form>

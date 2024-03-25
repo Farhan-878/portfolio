@@ -17,7 +17,7 @@ const Resume = () => {
       </div>
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-        <div className="left flex-1 flex items-center justify-center">
+        <div className="left flex-1 flex items-start justify-center">
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
@@ -84,12 +84,20 @@ const Resume = () => {
                   Year 2018 - Year 2021
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
+                  The university was established in 2009 as "Uttar Pradesh Arabi
+                  Pharsi University", under the Uttar Pradesh Arabi Pharsi
+                  University Act, 2009. In 2010 the act was repealed and the
+                  university was reintroduced as "Uttar Pradesh Urdu,
+                  Arabi-Farsi University" under Uttar Pradesh State Universities
+                  Act, 2010. It was renamed "Manyavar Shri Kanshi Ram Ji Urdu,
+                  Arabi-Farsi University" in 2011 under Uttar Pradesh State
+                  Universities Act, 2011, to honor the politician and social
+                  reformer Kanshi Ram. About a year later it was renamed again
+                  "Khwaja Moinuddin Chishti Urdu, Arabi-Farsi University" in
+                  2012, under Uttar Pradesh State Universities Act, 2012, in
+                  honor of Sufi saint Mu'in al-Din Chishti. In 2020, it was
+                  renamed a final time "Khwaja Moinuddin Chishti Language
+                  University" under Uttar Pradesh State Universities Act, 2020.
                 </p>
               </div>
             </div>

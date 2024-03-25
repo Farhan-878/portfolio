@@ -10,7 +10,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/FarhanResume.pdf";
 // import skill from "../../assets/Full Stack Developer2.png";
-import mine from "../../assets/banner.png";
+import Profile from "../../assets/uploadprofile.png";
 
 const Hero = () => {
   return (
@@ -105,7 +105,7 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+        {/* <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
               data-aos="fade-up"
@@ -114,7 +114,7 @@ const Hero = () => {
               src={mine}
               alt="mine"
             />
-            {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"
@@ -123,6 +123,34 @@ const Hero = () => {
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
                   src={skill}
+                  alt=""
+                />
+                <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+          <div className="relative h-[80%] w-fit flex items-center sm:items-end">
+            <div className="h-[80%] md:h-[95%]">
+              <img
+                loading="lazy"
+                // data-aos="fade-up"
+                className="image h-[450px] w-[450px] md:h-[300px] md:w-[300px]  overflow-hidden object-cover  md:m-auto sm:m-0"
+                src={Profile}
+                alt="mine"
+              />
+            </div>
+            {/* <div className=" absolute bottom-20 md:bottom-3 right-2 md:right-2">
+              <div
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                className=" relative cursor-pointer"
+              >
+                <img
+                  loading="lazy"
+                  className=" w-[120px] md:w-[90px] circle-text"
+                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
                   alt=""
                 />
                 <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />

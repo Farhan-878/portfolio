@@ -134,7 +134,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href="https://www.linkedin.com/in/farhan-manzer-33b01b208/"
-              className="bg-blue-600 text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className="btn-blue text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>
