@@ -91,7 +91,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           </Link>
         </div>
         <div
-          data-aos="fade-down"
+          data-aos="fade-left"
           className="nav-items flex items-center space-x-11"
         >
           {/* hamburger */}
@@ -120,6 +120,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               <li
                 key={item.id}
                 className="md:m-6 md:flex md:gap-6 md:items-center md:justify-center"
+                data-aos="fade-down"
               >
                 <a
                   onClick={() => toggleNav(item.name)}

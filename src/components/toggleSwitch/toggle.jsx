@@ -3,7 +3,7 @@ import "./style.css";
 
 const ToggleSwitch = ({ handleToggle, isDarkMode }) => {
   return (
-    <div class="toggle-switch">
+    <div class="toggle-switch" data-aos="zoom-in">
       <div class="toggle-container ">
         <label
           class={` ${isDarkMode ? "btn-blue" : ""} toggle image`}
