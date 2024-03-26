@@ -4,6 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Just+Another+Hand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Jim+Nightshade&family=Just+Another+Hand&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,11 +16,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Josefin Sans", sans-serif; */
   /* font-family: "Bebas Neue", sans-serif; */
-  /* font-family: "Lato"; */
-  /* font-family: "Oswald", sans-serif; */
+  font-family: "Belleza", sans-serif;
+  letter-spacing: 2px;
 
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -34,13 +38,13 @@ html {
   scrollbar-color: white;
 }
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: #6679f9;
   border-radius: 10px;
 }
 
 ::selection {
   color: white;
-  background: #000;
+  background: #6679f8;
 }
 
 /* Hero circular spin */
