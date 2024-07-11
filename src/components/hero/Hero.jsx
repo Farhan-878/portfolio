@@ -10,7 +10,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/FarhanResume.pdf";
 // import skill from "../../assets/Full Stack Developer2.png";
-import Profile from "../../assets/uploadprofile.png";
+import Profile from "../../assets/dummy.webp";
 
 const Hero = () => {
   return (
@@ -45,7 +45,7 @@ const Hero = () => {
           <div data-aos="fade-right" className="buttons flex gap-5">
             <a
               href="https://www.linkedin.com/in/farhan-manzer-33b01b208/"
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-blue-600"
+              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-lime-400"
             >
               <span> Hire Me</span>
             </a>
@@ -54,7 +54,7 @@ const Hero = () => {
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
-              <div className="flex items-center gap-1 relative text-black hover:text-blue-500">
+              <div className="flex items-center gap-1 relative text-black hover:text-lime-400">
                 Resume <FiDownload />
                 <span class="absolute top-[-11px] right-[-31px] flex h-3 w-3">
                   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>

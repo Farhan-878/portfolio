@@ -71,9 +71,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div
       className={`w-full mx-auto  fixed top-0 py-5 sm:py-4 z-30 ${
-        scrollPosition > 0
-          ? `bg-transparent backdrop-blur-lg shadow-md`
-          : "bg-transparent"
+        scrollPosition > 0 ? `bg-transparent backdrop-bg ` : "bg-transparent"
       } `}
     >
       <nav className=" container m-auto flex items-center justify-between">
@@ -125,7 +123,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer hover:text-blue-500 font-bold md:text-black ${
+                  className={`uppercase cursor-pointer hover:text-lime-400 font-bold md:text-black ${
                     scrollPosition > 0 ? "text-white" : "text-white"
                   } ${item.name === activeIndex ? "text-blue-500" : ""}`}
                 >
@@ -135,7 +133,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href="https://www.linkedin.com/in/farhan-manzer-33b01b208/"
-              className="btn-blue text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-gray-800 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className=" theme-btn text-[1rem] text-white px-8 py-2 rounded-lg font-bold md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>
