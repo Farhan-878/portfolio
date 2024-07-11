@@ -33,7 +33,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-white text-4xl font-bold sm:text-3xl"
+              className="text-lime-400 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
@@ -57,8 +57,8 @@ const Hero = () => {
               <div className="flex items-center gap-1 relative text-black hover:text-lime-400">
                 Resume <FiDownload />
                 <span class="absolute top-[-11px] right-[-31px] flex h-3 w-3">
-                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
-                  <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-lime-400"></span>
                 </span>
               </div>
             </a>
@@ -72,7 +72,7 @@ const Hero = () => {
               <li>
                 <a href="https://github.com/Farhan-878" target="_blank">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:text-lime-400" />{" "}
                 </a>
               </li>
               <li>
@@ -81,25 +81,25 @@ const Hero = () => {
                   target="_blank"
                 >
                   {" "}
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
+                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:text-lime-400 " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:text-lime-400  " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:text-lime-400  " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:text-lime-400  " />{" "}
                 </a>
               </li>
             </ul>
