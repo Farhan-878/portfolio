@@ -28,9 +28,9 @@ const Resume = () => {
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-white"></div>
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-lime-400 border-2 border-lime-400"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-white"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-lime-400 border-2 border-lime-400"></div>
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-white shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
@@ -68,9 +68,9 @@ const Resume = () => {
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-white"></div>
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-lime-400 border-2 border-lime-400"></div>
                 <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-white"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-lime-400 border-2 border-lime-400"></div>
               </div>
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-white shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">

@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import Home from "./pages/Home";
 import ToggleSwitch from "./components/toggleSwitch/toggle";
 import Loader from "./components/loader/loader";
+import AnimatedCursor from "react-animated-cursor";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,27 @@ const App = () => {
         <div className="landing-page">
           <Home />
           <ToggleSwitch handleToggle={handleToggle} isDarkMode={isDarkMode} />
+          <AnimatedCursor
+            innerSize={12}
+            outerSize={8}
+            color="196, 240, 0"
+            outerAlpha={0.2}
+            innerScale={0.7}
+            outerScale={5}
+            clickables={[
+              "a",
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              "label[for]",
+              "select",
+              "textarea",
+              "button",
+              ".link",
+            ]}
+          />
         </div>
       )}
     </Suspense>
