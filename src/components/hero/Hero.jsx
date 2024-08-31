@@ -9,8 +9,8 @@ import { FiDownload } from "react-icons/fi";
 // import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/FarhanResume.pdf";
-// import skill from "../../assets/Full Stack Developer2.png";
-import Profile from "../../assets/dummy.webp";
+import skill from "../../assets/frontend.png";
+import Profile from "../../assets/portfolio.jpg";
 
 const Hero = () => {
   return (
@@ -142,7 +142,7 @@ const Hero = () => {
                 alt="mine"
               />
             </div>
-            {/* <div className=" absolute bottom-20 md:bottom-3 right-2 md:right-2">
+            <div className=" absolute bottom-20 md:bottom-3 right-2 md:right-2">
               <div
                 data-aos="zoom-in"
                 data-aos-duration="1000"
@@ -151,12 +151,12 @@ const Hero = () => {
                 <img
                   loading="lazy"
                   className=" w-[120px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
-                  alt=""
+                  src={skill}
+                  alt="skill"
                 />
-                <FaPlay className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" />
+                {/* <FaPlay className=" text-white absolute top-[100%] left-[50%] translate-x-[-50%] translate-y-[-50%]" /> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
