@@ -10,55 +10,46 @@ const WorkCard = () => {
 
   return (
     <>
-      {reversedData.map((data) => {
-        return (
-          <div
-            data-aos="zoom-in"
-            key={data.id}
-            className="flex flex-col justify-center items-center gap-4"
-          >
-            <POPUP className="img-content relative">
-              <div className="h-[280px] w-[380px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
-                <img
-                  src={data.img}
-                  alt={data.title}
-                  className="object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
-                />
-              </div>
+      {reversedData.map((data) => (
+        <div
+          data-aos="zoom-in"
+          key={data.id}
+          className="break-inside-avoid bg-gray-900 p-4 rounded-xl shadow-lg"
+        >
+          <POPUP className="img-content relative">
+            <div className="h-[260px] w-full  hover:scale-105 transition-transform duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full mx-auto">
+              <img
+                src={data.img}
+                alt={data.title}
+                className="object-cover w-full h-[260px] sm:h-[260px] sm:w-full"
+              />
+            </div>
 
-              <div
-                className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
-              >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
-                  {data.desc}
-                </p>
-                <div className=" flex items-center justify-center gap-4">
-                  <Link
-                    to={data.link}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium bg-lime-400"
-                  >
-                    <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
-                  </Link>
-                  <br className="w-[2px] bg-white" />
-                  <Link
-                    to={data.git}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium bg-lime-400"
-                  >
-                    <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Code</p>
-                  </Link>
-                </div>
+            <div className="absolute inset-0 flex flex-col justify-end p-4 bg-gradient-to-t from-black/80 via-black/60 to-transparent rounded-md overflow-hidden">
+              <div className="flex items-center gap-2 mb-4">
+                <Link
+                  to={data.link}
+                  target="_blank"
+                  className="bg-lime-400 text-black p-2 rounded-full shadow-md flex items-center justify-center w-[35px] h-[35px]"
+                >
+                  <RxExternalLink className="text-white" />
+                </Link>
+                <Link
+                  to={data.git}
+                  target="_blank"
+                  className="bg-lime-400 text-black p-2 rounded-full shadow-md flex items-center justify-center w-[35px] h-[35px]"
+                >
+                  <AiOutlineGithub className="text-white" />
+                </Link>
               </div>
-            </POPUP>
-            <p className="text-gray-500 text-xl font-medium sm:text-lg">
-              {data.title}
-            </p>
-          </div>
-        );
-      })}
+            </div>
+          </POPUP>
+
+          <p className="text-white text-xl font-medium mt-4 hover:text-lime-400">
+            {data.title}
+          </p>
+        </div>
+      ))}
     </>
   );
 };
