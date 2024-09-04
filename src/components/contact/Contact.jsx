@@ -17,59 +17,61 @@ const Contact = () => {
       </div>
 
       {/* card*/}
-      <div className="card-wrapper w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
-        <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
-          <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
-            <div data-aos="zoom-in">
-              <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
-              <h3 className="text-xl sm:text-lg">
-                Beautiful design for your website leave a request
-              </h3>
+      <div className="contact-wrapper">
+        <div className="card-wrapper  w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
+          <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
+            <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
+              <div data-aos="zoom-in">
+                <h1 className="text-5xl font-bold sm:text-3xl">You Need</h1>
+                <h3 className="text-xl sm:text-lg">
+                  Beautiful design for your website leave a request
+                </h3>
+              </div>
+            </div>
+            <div className=" flex p-5 items-center justify-center ">
+              <button
+                data-aos="zoom-in"
+                className="text-custom-green font-extrabold text-3xl border-2 border-lime-400 p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
+              >
+                <BsArrowRight className=" md:rotate-90" />
+              </button>
             </div>
           </div>
-          <div className=" flex p-5 items-center justify-center ">
-            <button
+          <div className="right flex-1">
+            <form
               data-aos="zoom-in"
-              className="text-custom-green font-extrabold text-3xl border-2 border-lime-400 p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
+              className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
+              action="mailto:farhanmanzer440@gmail.com"
             >
-              <BsArrowRight className=" md:rotate-90" />
-            </button>
+              <input
+                className="px-3 hover:border-blue-600 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                type="email"
+                placeholder="example@email.com"
+                name=""
+              />
+              <input
+                className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                type="text"
+                placeholder="Farhan Manzer"
+                name=""
+              />
+              <textarea
+                className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+                rows="4"
+                cols="50"
+                placeholder="Write your message"
+                name=""
+                id=""
+              />
+              <button
+                className="btn-blue w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
+                type="submit"
+              >
+                <span className="text-lg display-block">Send</span>
+                <RiSendPlaneFill />
+              </button>
+            </form>
           </div>
-        </div>
-        <div className="right flex-1">
-          <form
-            data-aos="zoom-in"
-            className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="mailto:farhanmanzer440@gmail.com"
-          >
-            <input
-              className="px-3 hover:border-blue-600 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              type="email"
-              placeholder="example@email.com"
-              name=""
-            />
-            <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              type="text"
-              placeholder="Farhan Manzer"
-              name=""
-            />
-            <textarea
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              rows="4"
-              cols="50"
-              placeholder="Write your message"
-              name=""
-              id=""
-            />
-            <button
-              className="btn-blue w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
-              type="submit"
-            >
-              <span className="text-lg display-block">Send</span>
-              <RiSendPlaneFill />
-            </button>
-          </form>
         </div>
       </div>
     </div>
