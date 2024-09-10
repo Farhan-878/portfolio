@@ -9,7 +9,7 @@ import Work from "../components/work/Work";
 import MarqueeSlide from "../components/marquee/marqueeSlide";
 // import About from "../components/about/About";
 
-const Home = () => {
+const Home = ({ isDarkMode }) => {
   const [darkMode, setDarkMode] = useState(false);
   function toggleDarkMode() {
     setDarkMode((prevDarkMode) => !prevDarkMode);
@@ -17,12 +17,16 @@ const Home = () => {
   return (
     <>
       <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <Hero
+        darkMode={darkMode}
+        toggleDarkMode={toggleDarkMode}
+        isDarkMode={isDarkMode}
+      />
       {/* <About /> */}
       <Skills darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Work darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <MarqueeSlide darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      {/* <MarqueeSlide darkMode={darkMode} toggleDarkMode={toggleDarkMode} /> */}
       <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>

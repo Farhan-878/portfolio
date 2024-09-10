@@ -76,15 +76,18 @@ html {
   color: #fff;
 } */
 .dark-bg-color {
-  background: #070707;
+  background: #0e0f11;
 }
 .dark-theme {
-  background: #070707;
-  color: #fff;
+  background: #0e0f11;
+  color: #fff !important;
 }
 .light-theme {
   background: #fff;
-  color: #9ca3af;
+  color: #020106;
+}
+.textColor {
+  color: #fff !important;
 }
 .image {
   animation: animate 6s ease-in-out infinite;
@@ -107,9 +110,9 @@ html {
   color: #000;
 }
 #home {
-  background-color: #130f40;
-  background-image: -webkit-linear-gradient(135deg, #130f40 0%, #000000 74%);
-  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  background-color: #0a0033;
+  background-image: -webkit-linear-gradient(135deg, #0a0033 0%, #020106 74%);
+  background-image: linear-gradient(315deg, #0a0033 0%, #020106 74%);
 }
 .footer-class {
   background: #c4f000;

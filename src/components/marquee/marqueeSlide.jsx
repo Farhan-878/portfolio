@@ -22,7 +22,7 @@ const MarqueeSlide = () => {
         direction="left"
         className="mt-16"
       >
-        <div className="flex gap-20 mt-5 mb-5 text-3xl">
+        <div className="flex gap-20 mt-5 mb-5 text-3xl text-white">
           {Array(6)
             .fill(content)
             .flat()

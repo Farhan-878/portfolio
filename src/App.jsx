@@ -44,7 +44,7 @@ const App = () => {
         </div>
       ) : (
         <div className="landing-page">
-          <Home />
+          <Home isDarkMode={isDarkMode} />
           <ToggleSwitch handleToggle={handleToggle} isDarkMode={isDarkMode} />
           <AnimatedCursor
             innerSize={12}

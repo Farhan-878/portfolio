@@ -5,10 +5,7 @@ const ToggleSwitch = ({ handleToggle, isDarkMode }) => {
   return (
     <div class="toggle-switch" data-aos="zoom-in">
       <div class="toggle-container ">
-        <label
-          class={` ${isDarkMode ? "btn-blue" : ""} toggle image`}
-          for="switch"
-        >
+        <label class={` ${isDarkMode ? "" : ""} toggle image`} for="switch">
           <input
             id="switch"
             class="input"
