@@ -8,9 +8,10 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 // import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/FarhanResume.pdf";
+import resumePDF from "../../assets/FMResume.pdf";
 import skill from "../../assets/frontend.png";
 import Profile from "../../assets/portfolio.jpg";
+// import CircularText from "./circular";
 
 const Hero = ({ isDarkMode }) => {
   return (
@@ -24,11 +25,11 @@ const Hero = ({ isDarkMode }) => {
                 isDarkMode ? "textColor" : "textColor"
               } text-5xl font-bold sm:text-[2rem]`}
             >
-              Hello, I'm Farhan Manzer
+              Hello👋, I'm Farhan Manzer
             </h2>
             <TypeAnimation
               data-aos="fade-right"
-              sequence={["Web Designer", 2000, "Frontend Developer", 2000, ""]}
+              sequence={["UI Developer", 2000, "Frontend Developer", 2000, "React Developer", 2000]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -147,6 +148,9 @@ const Hero = ({ isDarkMode }) => {
                 data-aos-duration="1000"
                 className=" relative cursor-pointer"
               >
+                {/* <div className="circle-text h-[500px] w-[500px] z-10 bg-white">
+                  <CircularText text=" Developer . Frontend" radius={75} fontSize={20}  />
+                </div> */}
                 <img
                   loading="lazy"
                   className=" w-[120px] md:w-[90px] circle-text"
