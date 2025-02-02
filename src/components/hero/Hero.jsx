@@ -10,7 +10,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/FMResume.pdf";
 import skill from "../../assets/frontend.png";
-import Profile from "../../assets/portfolio.jpg";
+import Profile from "../../assets/port-DP.jpg";
 // import CircularText from "./circular";
 
 const Hero = ({ isDarkMode }) => {
