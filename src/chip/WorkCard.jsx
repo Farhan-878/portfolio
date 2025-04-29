@@ -14,7 +14,7 @@ const WorkCard = () => {
         <div
           data-aos="zoom-in"
           key={data.id}
-          className="break-inside-avoid bg-gray-900 p-4 rounded-xl shadow-lg"
+          className="break-inside-avoid bg-gray-900 p-4 rounded-xl shadow-lg md:ml-0"
         >
           <POPUP className="img-content relative">
             <div className="h-[260px] w-full  hover:scale-105 transition-transform duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full mx-auto">

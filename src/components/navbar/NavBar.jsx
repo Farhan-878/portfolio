@@ -71,11 +71,10 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
   return (
     <div class="flex justify-center items-center">
       <div
-        className={`fixed py-5 sm:py-4 z-30  ${
-          scrollPosition > 0
-            ? `bg-transparent backdrop-blur z-50 top-0 border-0 border-transparent w-full transition-all`
-            : "bg-transparent backdrop-blur border-2 border-lime-400 rounded-3xl top-8  w-[95%] mx-auto transition-all overflow-hidden md:top-0 md:w-full md:border-0 md:overflow-visible"
-        } `}
+        className={`fixed py-5 sm:py-4 z-30  ${scrollPosition > 0
+          ? `bg-transparent backdrop-blur z-50 top-0 border-0 border-transparent w-full transition-all`
+          : "bg-transparent backdrop-blur border-2 border-lime-400 rounded-3xl top-8  w-[95%] mx-auto transition-all overflow-hidden md:top-0 md:w-full md:border-0 md:overflow-visible"
+          } `}
       >
         <nav className=" container m-auto flex items-center justify-between z-50">
           <div data-aos="fade-down" className="logo">
@@ -85,7 +84,10 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               className="text-3xl font-bold sm:text-3xl"
             >
               <img
-                style={{ transform: `rotate(${rotation}deg)`, height: "45px" }}
+                style={{
+                  transform: `rotate(${rotation}deg)`, height: "45px", boxShadow: "1px 1px 20px 3px #c4f000",
+                  borderRadius: "100%"
+                }}
                 src={logo}
                 alt="logo"
               />
@@ -98,17 +100,16 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             {/* hamburger */}
             <button
               onClick={toggleNav}
-              className="cursor-pointer text-2xl hidden md:block"
+              className="cursor-pointer text-2xl hidden"
             >
               <HiMenu size={25} />
             </button>
 
             <ul
-              className={`flex items-center space-x-11 ${
-                !isOpen
-                  ? "md:flex md:opacity-0 transition "
-                  : "md:right-[0%] md:opacity-100 transition"
-              } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
+              className={`flex items-center space-x-11 ${!isOpen
+                ? "md:flex md:opacity-0 transition "
+                : "md:right-[0%] md:opacity-100 transition"
+                } md:flex-col md:absolute m-auto md:top-0 md:right-[-100%] md:w-[78%] md:h-screen md:bg-white `}
             >
               {/* Use a button tag for better accessibility */}
               <button
@@ -126,9 +127,8 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                   <a
                     onClick={() => toggleNav(item.name)}
                     href={`#${item.name}`}
-                    className={`uppercase cursor-pointer hover:text-lime-400 font-bold md:text-black ${
-                      scrollPosition > 0 ? "text-white" : "text-white"
-                    } ${item.name === activeIndex ? "text-blue-500" : ""}`}
+                    className={`uppercase cursor-pointer hover:text-lime-400 font-bold md:text-black ${scrollPosition > 0 ? "text-white" : "text-white"
+                      } ${item.name === activeIndex ? "text-blue-500" : ""}`}
                   >
                     {item.name}
                   </a>

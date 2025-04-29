@@ -3,6 +3,7 @@
   bottom: 50px;
   right: 50px;
 }
+
 .toggle {
   background-color: #fff;
   width: 56px;
@@ -33,22 +34,30 @@
   transform: scale(0);
 }
 
-#switch:checked + .icon--moon {
+#switch:checked+.icon--moon {
   transform: rotate(360deg) scale(0);
 }
 
-#switch:checked ~ .icon--sun {
+#switch:checked~.icon--sun {
   transition-delay: 200ms;
   transform: scale(1) rotate(360deg);
 }
 
 .w-8 {
-  width: 2rem /* 32px */;
+  width: 2rem
+    /* 32px */
+  ;
 }
 
 @media screen and (max-width: 767px) {
   .toggle-switch {
     right: 20px;
-    bottom: 20px;
+    bottom: 90%;
+    z-index: 9999;
+  }
+
+  .toggle {
+    width: 46px;
+    height: 46px;
   }
 }

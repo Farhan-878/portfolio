@@ -7,6 +7,7 @@ import Resume from "../components/resume/Resume";
 import Skills from "../components/skills/Skills";
 import Work from "../components/work/Work";
 import MarqueeSlide from "../components/marquee/marqueeSlide";
+import MobNavBar from "../components/navbar/MobNavBar";
 // import About from "../components/about/About";
 
 const Home = ({ isDarkMode }) => {
@@ -17,6 +18,7 @@ const Home = ({ isDarkMode }) => {
   return (
     <>
       <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <MobNavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Hero
         darkMode={darkMode}
         toggleDarkMode={toggleDarkMode}
