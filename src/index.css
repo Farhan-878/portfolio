@@ -28,15 +28,18 @@
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
 }
+
 html {
   overflow-x: hidden !important;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
+
 ::-webkit-scrollbar {
   width: 7px;
   scrollbar-color: white;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #c4f000;
   border-radius: 10px;
@@ -57,6 +60,7 @@ html {
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -66,6 +70,7 @@ html {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -78,17 +83,22 @@ html {
 .dark-bg-color {
   background: #0e0f11;
 }
+
 .dark-theme {
-  background: #0e0f11;
+  /* background: #0e0f11; */
+  background: #141827;
   color: #fff !important;
 }
+
 .light-theme {
   background: #fff;
   color: #020106;
 }
+
 .textColor {
   color: #fff !important;
 }
+
 .image {
   animation: animate 6s ease-in-out infinite;
   transition: all 2s ease-in-out;
@@ -98,26 +108,32 @@ html {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+
   50% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
+
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
 .btn-blue {
   background: #c4f000;
   color: #000;
 }
+
 #home {
   background-color: #0a0033;
   background-image: -webkit-linear-gradient(135deg, #0a0033 0%, #020106 74%);
   background-image: linear-gradient(315deg, #0a0033 0%, #020106 74%);
 }
+
 .footer-class {
   background: #c4f000;
   color: #070707;
 }
+
 .theme-btn {
   background: #c4f000;
   color: #000;
@@ -133,6 +149,7 @@ html {
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 0px 0px;
 }
+
 .theme-btn:hover {
   border: 1px solid rgb(196, 240, 0);
   text-decoration: none;
@@ -141,16 +158,20 @@ html {
   transition: 0.3s;
   background: #070707;
 }
+
 .backdrop-bg {
   background: #000;
   /* border-bottom: 1px dashed rgba(119, 119, 125, 0.2); */
 }
+
 .text-custom-green {
   color: #c4f000;
 }
+
 .contact-wrapper {
   position: relative;
 }
+
 .contact-wrapper::before {
   content: "";
   position: absolute;
