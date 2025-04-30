@@ -52,7 +52,7 @@
 @media screen and (max-width: 767px) {
   .toggle-switch {
     right: 20px;
-    bottom: 90%;
+    bottom: 15%;
     z-index: 9999;
   }
 
