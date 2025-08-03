@@ -86,8 +86,9 @@ html {
 
 .dark-theme {
   /* background: #0e0f11; */
-  background: #141827;
+  /* background: #141827; */
   color: #fff !important;
+  background: #04081a;
 }
 
 .light-theme {
@@ -124,9 +125,14 @@ html {
 }
 
 #home {
-  background-color: #0a0033;
+  /* background-color: #0a0033;
   background-image: -webkit-linear-gradient(135deg, #0a0033 0%, #020106 74%);
-  background-image: linear-gradient(315deg, #0a0033 0%, #020106 74%);
+  background-image: linear-gradient(315deg, #0a0033 0%, #020106 74%); */
+
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(135deg, #000000 0%, #0a0d37 100%);
+  background-image: linear-gradient(315deg, #000000 0%, #0a0d37 100%);
+
 }
 
 .footer-class {

@@ -14,14 +14,15 @@ const WorkCard = () => {
         <div
           data-aos="zoom-in"
           key={data.id}
-          className="break-inside-avoid  p-4 rounded-xl shadow-lg md:ml-0"
+          // className="break-inside-avoid  p-4 rounded-xl shadow-lg md:ml-0"
+          className="rounded-lg p-4 border text-card-foreground shadow-sm group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20"
           style={{
             background: "#161a2b",
             boxShadow: "0 -15px 27.2px 0 rgba(24, 27, 34, .25)",
           }}
         >
           <POPUP className="img-content relative">
-            <div className="h-[260px] w-full  hover:scale-105 transition-transform duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full mx-auto">
+            <div className="h-[260px] w-full  hover:scale-105 transition-transform duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-full mx-auto ">
               <img
                 src={data.img}
                 alt={data.title}
